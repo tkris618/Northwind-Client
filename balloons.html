@@ -40,15 +40,15 @@
                             <h5 class="card-title">Select your favorite balloons</h5>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="red" name="balloon">
-                                <label class="form-check-label" for="red">Red balloons</label>
+                                <label class="form-check-label" for="red"  onmouseover="ChangeColor()" onmouseleave="Revert()">Red balloons</label>
                             </div>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="green" name="balloon">
-                                <label class="form-check-label" for="green">Green balloons</label>
+                                <label class="form-check-label" for="green" onmouseover="ChangeColorTwo()" onmouseleave="Revert()">Green balloons</label>
                             </div>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="blue" name="balloon">
-                                <label class="form-check-label" for="blue">Blue balloons</label>
+                                <label class="form-check-label" for="blue" onmouseover="ChangeColorThree()" onmouseleave="Revert()">Blue balloons</label>
                             </div>
                             <div>
                                 <input type="checkbox" class="select" id="select-all">
@@ -59,7 +59,7 @@
                     <button type="button" class="btn btn-outline-primary mt-3" id="submit">Submit</button>
                 </div>
                 <div class="col-sm">
-                    <img src="media/red.png" class="ball" alt="red balloon" id="redImg" onmouseover="ChangeColor()" onmouseleave="Revert()"/>
+                    <img src="media/red.png" class="ball" alt="red balloon" id="redImg"  onmouseover="ChangeColor()" onmouseleave="Revert()"/>
                     <img src="media/green.png" class="ball" alt="green balloon" id="greenImg" onmouseover="ChangeColorTwo()" onmouseleave="Revert()"/>
                     <img src="media/blue.png" class="ball" alt="blue balloon" id="blueImg" onmouseover="ChangeColorThree()" onmouseleave="Revert()"/>
                 </div>
